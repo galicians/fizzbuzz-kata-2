@@ -1,0 +1,1 @@
+Refactoring the fizzbuzz kata with TDD, using the class Fixnum
