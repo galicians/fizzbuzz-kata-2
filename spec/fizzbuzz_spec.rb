@@ -18,4 +18,19 @@ describe Fixnum do
 
 	end
 
+	context "it says" do
+
+		it "fizz when divisible by 3" do
+			expect(3.fizzbuzz).to eq("Fizz")
+		end
+
+		it "buzz when divisible by 5" do
+			expect(5.fizzbuzz).to eq("Buzz")
+		end
+
+		it "fizzbuzz when divisible by 15" do
+			expect(15.fizzbuzz).to eq("FizzBuzz")
+		end
+	end
+
 end
